@@ -63,15 +63,16 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form action="https://api.web3forms.com/submit" method="POST">
+								<input type="hidden" name="access_key" value="27a837a7-b094-4e5f-8120-919da024d4ce">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name">
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="email" id="email">
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
@@ -79,7 +80,7 @@
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><button type="submit">Send Message</button></li>
 								</ul>
 							</form>
 						</section>
@@ -128,4 +129,5 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
